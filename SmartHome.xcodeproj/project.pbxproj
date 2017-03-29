@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98701D4C1E8B8F75002EB73F /* Luces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98701D4B1E8B8F75002EB73F /* Luces.swift */; };
+		98701D4E1E8B945B002EB73F /* Ventana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98701D4D1E8B945B002EB73F /* Ventana.swift */; };
+		98701D501E8B99FE002EB73F /* temperatura.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98701D4F1E8B99FE002EB73F /* temperatura.swift */; };
+		98701D521E8B9CE7002EB73F /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98701D511E8B9CE7002EB73F /* ProgressView.swift */; };
+		98701D541E8B9D90002EB73F /* temperaturaMaxMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98701D531E8B9D90002EB73F /* temperaturaMaxMin.swift */; };
 		987F1C5B1E8B874C00DDF717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F1C5A1E8B874C00DDF717 /* AppDelegate.swift */; };
 		987F1C5D1E8B874C00DDF717 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F1C5C1E8B874C00DDF717 /* ViewController.swift */; };
 		987F1C601E8B874C00DDF717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987F1C5E1E8B874C00DDF717 /* Main.storyboard */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98701D4B1E8B8F75002EB73F /* Luces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Luces.swift; sourceTree = "<group>"; };
+		98701D4D1E8B945B002EB73F /* Ventana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ventana.swift; sourceTree = "<group>"; };
+		98701D4F1E8B99FE002EB73F /* temperatura.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = temperatura.swift; sourceTree = "<group>"; };
+		98701D511E8B9CE7002EB73F /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		98701D531E8B9D90002EB73F /* temperaturaMaxMin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = temperaturaMaxMin.swift; sourceTree = "<group>"; };
 		987F1C571E8B874C00DDF717 /* SmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		987F1C5A1E8B874C00DDF717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		987F1C5C1E8B874C00DDF717 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +84,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98701D551E8B9F1E002EB73F /* Temperatura */ = {
+			isa = PBXGroup;
+			children = (
+				98701D4F1E8B99FE002EB73F /* temperatura.swift */,
+				98701D511E8B9CE7002EB73F /* ProgressView.swift */,
+				98701D531E8B9D90002EB73F /* temperaturaMaxMin.swift */,
+			);
+			name = Temperatura;
+			sourceTree = "<group>";
+		};
 		987F1C4E1E8B874B00DDF717 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +117,15 @@
 		987F1C591E8B874C00DDF717 /* SmartHome */ = {
 			isa = PBXGroup;
 			children = (
+				98701D551E8B9F1E002EB73F /* Temperatura */,
 				987F1C5A1E8B874C00DDF717 /* AppDelegate.swift */,
 				987F1C5C1E8B874C00DDF717 /* ViewController.swift */,
 				987F1C5E1E8B874C00DDF717 /* Main.storyboard */,
 				987F1C611E8B874C00DDF717 /* Assets.xcassets */,
 				987F1C631E8B874C00DDF717 /* LaunchScreen.storyboard */,
 				987F1C661E8B874C00DDF717 /* Info.plist */,
+				98701D4B1E8B8F75002EB73F /* Luces.swift */,
+				98701D4D1E8B945B002EB73F /* Ventana.swift */,
 			);
 			path = SmartHome;
 			sourceTree = "<group>";
@@ -259,8 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98701D4C1E8B8F75002EB73F /* Luces.swift in Sources */,
+				98701D4E1E8B945B002EB73F /* Ventana.swift in Sources */,
 				987F1C5D1E8B874C00DDF717 /* ViewController.swift in Sources */,
+				98701D501E8B99FE002EB73F /* temperatura.swift in Sources */,
 				987F1C5B1E8B874C00DDF717 /* AppDelegate.swift in Sources */,
+				98701D541E8B9D90002EB73F /* temperaturaMaxMin.swift in Sources */,
+				98701D521E8B9CE7002EB73F /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SmartHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ulsa.SmartHome;
@@ -424,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SmartHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ulsa.SmartHome;
@@ -505,6 +535,7 @@
 				987F1C811E8B874C00DDF717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		987F1C821E8B874C00DDF717 /* Build configuration list for PBXNativeTarget "SmartHomeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +544,7 @@
 				987F1C841E8B874C00DDF717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		987F1C851E8B874C00DDF717 /* Build configuration list for PBXNativeTarget "SmartHomeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +553,7 @@
 				987F1C871E8B874C00DDF717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
